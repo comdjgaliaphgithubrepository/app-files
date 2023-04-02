@@ -1,0 +1,131 @@
+========================PHP Codes==========================
+
+
+<?php
+$count = 0; //initialization
+do {
+  echo $count;
+  $count++;
+} while ($count < 5);  // condition
+
+?>
+
+-----------------------------------------------
+
+<?php
+$x = 6;
+do {
+  echo "The number is: $x <br>";
+  $x++;
+} while ($x <= 5);
+?>
+
+
+
+
+
+
+
+
+
+
+========================Java Codes==========================
+
+class Main
+
+{
+	public static void main(String[] args) {
+// initial counter variable
+		int i = 0;
+
+		do {
+
+			// Body of loop that will execute minimum
+			// 1 time for sure no matter what
+			System.out.println("Print statement");
+			i++;
+		}
+
+		// Checking condition
+		// Note: It is being checked after
+		// minimum 1 iteration
+		while (i < 0);
+	}
+}
+
+
+
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+// Java Program to Illustrate One Time Iteration
+// Inside do-while Loop
+// When Condition IS Not Satisfied
+
+// Class
+class Main
+
+{
+// Main driver method
+    public static void main(String args[])
+    {
+ 
+        // Declaring and initialization expression
+        int i = 1;
+ 
+        // Do-while loop
+        do {
+ 
+            // Body of do-while loop
+            // Print statement
+            System.out.println(i);
+ 
+            // Update expression
+            i++;
+        }
+ 
+        // Test expression
+        while (i < 6);
+    }
+}
+
+
+
+===================JAVASCRIPT-------------------------------------------
+
+
+
+
+var i=0;
+do {
+    console.log(i+ ": Welcome to JavaScript");
+    i++;
+}
+    while (i<=5);
+	
+	
+---------------------------------------------------
+
+
+
+
+
+let result = '';
+let i = 0;
+
+do {
+  i = i + 1;
+  result = result + i;
+} while (i < 5);
+
+console.log(result);
+
+
+-----------------------------------------
+
+
